@@ -8,7 +8,8 @@
 <body class="signup-page">
 
   <header class="site-header simple-header">
-    <img src="images/header logo.png" alt="Tia logo" class="site-logo">
+    <a href="index.html"><img src="images/header logo.png" alt="Tia Health" class="site-logo"></a>
+    
   </header>
 
   <main class="signup-wrapper">
@@ -19,7 +20,8 @@
         We need some basic details before checking insurance.
       </p>
 
-      <form>
+      <form class="signup-form">
+
         <div class="form-row">
           <input type="text" placeholder="First name">
           <input type="text" placeholder="Last name">
@@ -33,10 +35,10 @@
           <input type="text" placeholder="MM/DD/YYYY">
         </div>
 
-        <label class="checkbox-line">
-          <input type="checkbox">
-          I agree to the terms and privacy policy
-        </label>
+        <div class="checkbox-row">
+          <input type="checkbox" id="terms">
+          <label for="terms">I agree to the terms and privacy policy</label>
+        </div>
 
         <button disabled>Continue</button>
       </form>
