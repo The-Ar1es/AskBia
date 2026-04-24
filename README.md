@@ -1,6 +1,6 @@
 # 🏥 Ask BIA — Tia Health Clone
 
-A front-end clone of [Tia Health](https://asktia.com), built as my **final project for the SnW (Scripting & Web) course — Semester 1**.
+A front-end clone of [Tia Health](https://asktia.com), built as my **final project for the SnW course — Semester 1**.
 
 ## 📌 About
 Recreates the look and feel of Tia Health's website — a women's healthcare platform offering primary care, gynecology, and mental health services.
